@@ -2,6 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 <html>
 <head>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/stylesheet.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Welcome <%=session.getAttribute("name")%></title>
 </head>
